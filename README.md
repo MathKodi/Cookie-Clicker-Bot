@@ -21,14 +21,46 @@ Este é um bot automatizado usando **Selenium** para jogar [Cookie Clicker](http
 
 - Python 3.x
 - Google Chrome
-- [ChromeDriver](https://sites.google.com/chromium.org/driver/) compatível com sua versão do Chrome
+- ChromeDriver compatível com sua versão do Chrome
 
 ---
 
 ## 📦 Instalação
 
 1. Clone o repositório ou copie o script Python.
-2. Instale as dependências:
+2. Instale a biblioteca Selenium com o comando:
 
-```bash
 pip install selenium
+
+3. Certifique-se de que o ChromeDriver está instalado e disponível no PATH do sistema, ou especifique o caminho diretamente no script.
+
+---
+
+## ▶️ Como usar
+
+Execute o script com o Python:
+
+python cookie_bot.py
+
+O navegador será aberto automaticamente, e o bot começará a jogar.
+
+---
+
+## 📝 Resultado esperado
+
+Após 5 minutos, o terminal exibirá algo como:
+
+Tempo encerrado! Cookies por segundo: 123.4
+
+---
+
+## ⚠️ Observações
+
+- O script simula cliques e interações reais com a página. Não o use em competições ou ambientes onde automação não é permitida.
+- O site usado é uma versão experimental do Cookie Clicker, apenas para fins de aprendizado.
+
+---
+
+## 📄 Licença
+
+Este projeto é livre para uso pessoal e educacional.
